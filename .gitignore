@@ -1,0 +1,16 @@
+﻿# Ignorar todos os arquivos por padrão
+*
+
+# Permitir pastas para o Git conseguir navegar na estrutura
+!*/
+
+# Manter este arquivo
+!.gitignore
+
+# Permitir index.html em qualquer nível
+!index.html
+!**/index.html
+
+# Permitir qualquer pasta assets e tudo dentro dela
+!**/assets/
+!**/assets/**
