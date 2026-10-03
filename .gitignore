@@ -14,3 +14,25 @@
 # Permitir qualquer pasta assets e tudo dentro dela
 !**/assets/
 !**/assets/**
+
+# Segredos locais
+**/.env
+**/.env.*
+!**/.env.example
+
+# Agentes locais
+**/agents/
+**/.agents/
+
+# Chaves locais
+**/*.pem
+**/*.key
+**/id_rsa
+**/id_ed25519
+**/mcp-server.json
+
+# Dependencias/cache
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
